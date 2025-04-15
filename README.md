@@ -17,7 +17,9 @@ Technologies used:
 Setup Instructions:
 1. Clone the Repository
 In your CLI:
+
 git clone https://github.com/Damianleenair/Big4ETLPipeline.git
+
 cd Big4ETLPipeline
 
 2.Open Project in IntelliJ IDEA Community Edition
@@ -27,10 +29,15 @@ cd Big4ETLPipeline
 3. Configuring PostgreSQL and Scala code:
 - Create a new database and give it a name, password and assign user rights
 - Within the scala code input your DATABASE NAME, USERNAME and PASSWORD:
+  
     val jdbcUrl = "jdbc:postgresql://localhost:5432/DATABASE NAME"
+  
     val connectionProperties = new Properties()
+  
     connectionProperties.put("user", "USERNAME")
+  
     connectionProperties.put("password", "PASSWORD*")
+  
     connectionProperties.put("driver", "org.postgresql.Driver")
 
 4. scala code and build.sbt has been commented to provide a clear understanding of the following:
