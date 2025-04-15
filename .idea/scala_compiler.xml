@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="Big4ETLPipeline,Big4ETLPipeline.main,Big4ETLPipeline.test,Big4EtlPipeline,Big4EtlPipeline.main,Big4EtlPipeline.test" />
+  </component>
+</project>
